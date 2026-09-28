@@ -27,7 +27,7 @@ export function VideoSection() {
             <div className="mt-8 grid gap-4 sm:grid-cols-3">
               {[
                 { icon: HeartPulse, k: "3 Lakh+", v: "patients treated" },
-                { icon: Users, k: "15+", v: "doctors" },
+                { icon: Users, k: "20+", v: "doctors" },
                 { icon: ShieldCheck, k: "49+", v: "beds" },
               ].map(({ icon: Icon, k, v }) => (
                 <div key={k} className="rounded-2xl border border-border bg-card p-4">
